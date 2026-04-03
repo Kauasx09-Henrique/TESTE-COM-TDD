@@ -46,4 +46,4 @@ describe('validateTitle', () => {
     it('deve considerar o título após trim', () => {
         expect(validateTitle('  abc  ')).toBe(true);
     });
-}); np
+}); 
